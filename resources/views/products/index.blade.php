@@ -7,7 +7,6 @@
 				<div class="card">
 	                <div class="card-header">
 	                	Products
-
 	                	@can('products.create')
 	                	<a href="{{ route('products.create') }}"
 	                	class="btn btn-sm btn-outline-primary float-righ">
